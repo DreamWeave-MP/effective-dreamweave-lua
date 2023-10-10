@@ -12,7 +12,7 @@
     
     ---@param message string
     function functions.log(message)
-        tes3mp.LogMessage(enumerations.log.VERBOSE, message)
+        dreamweave.LogMessage(enumerations.log.VERBOSE, message)
     end
 
     return functions

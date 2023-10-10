@@ -25,7 +25,7 @@ Imagine you want to taunt a player whenever they die.
 ```Lua
 customEventHooks.registerHandler("OnPlayerDeath", function(eventStatus, pid)
     if eventStatus.validCustomHandlers then --check if some other script made this event obsolete
-        tes3mp.SendMessage(pid, "Don't worry, he'll be gentle!\n")
+        dreamweave.SendMessage(pid, "Don't worry, he'll be gentle!\n")
     end
 end)
 ```
@@ -101,7 +101,7 @@ Most of the events are the same as `eventHandler.lua` functions, with some extra
 * OnPlayerQuickKeys(pid)
 * OnPlayerJournal(pid)
 * OnPlayerFaction(pid, action)
-    `action` is the result of `tes3mp.GetFactionChangesAction(pid)` (0 for RANK, 1 for EXPULSION, 2 for REPUTATION)
+    `action` is the result of `dreamweave.GetFactionChangesAction(pid)` (0 for RANK, 1 for EXPULSION, 2 for REPUTATION)
 * OnPlayerTopic(pid)
 * OnPlayerBounty(pid)
 * OnPlayerReputation(pid)

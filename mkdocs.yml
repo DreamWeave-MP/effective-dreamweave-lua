@@ -1,5 +1,5 @@
-site_name: Effective TES3MP Lua
-repo_url: https://github.com/Resdayn-RP/effective-tes3mp-lua
+site_name: Effective Dreamweave Lua
+repo_url: https://github.com/DreamWeave-MP/effective-dreamweave-lua
 theme:
     name: material
     features:
